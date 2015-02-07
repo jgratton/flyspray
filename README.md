@@ -15,12 +15,16 @@ Latest FlySpray from GitHub: https://github.com/Flyspray/flyspray
 ### Create a MySQL Container
 Basic Setup
 
-docker run --name mysql_db_container_name -h mysql_db_host_name -e MYSQL_ROOT_PASSWORD=secretpassword -d mysql`
+```
+docker run --name mysql_db_container_name -h mysql_db_host_name -e MYSQL_ROOT_PASSWORD=secretpassword -d mysql
+```
 
 ### Create the flyspray Container
 Basic Setup
 
-docker run --name flyspray_container_name -h flyspray_host_name --link mysql_db_container_name:mysql -P -d jgratton/flyspray`
+```
+docker run --name flyspray_container_name -h flyspray_host_name --link mysql_db_container_name:mysql -P -d jgratton/flyspray
+```
 
 ## Finally
 Navigate to your installation in the web browser
