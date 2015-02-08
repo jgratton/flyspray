@@ -34,11 +34,11 @@ Navigate to your installation in the web browser
 
 The top of the web page will look like:
 
-(<img src="https://raw.githubusercontent.com/jgratton/flyspray/master/Setup_Screen_1_Top.png">)
+(img src="https://raw.githubusercontent.com/jgratton/flyspray/master/Setup_Screen_1_Top.png")
 
 The bottom of the page will look like:
 
-(<img src="https://raw.githubusercontent.com/jgratton/flyspray/master/Setup_Screen_1_Bottom.png">)
+(img src="https://raw.githubusercontent.com/jgratton/flyspray/master/Setup_Screen_1_Bottom.png")
 
 Click the Next Button on the bottom of the page.
 
