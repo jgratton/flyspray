@@ -12,6 +12,9 @@ rm -f /var/run/apache2/apache2.pid
 # Initialize variables
 FLYSPRAY="/tmp/flyspray"
 HTML="/var/www/html"
+CACHE="/var/www/html/cache"
+ATTACHMENTS="/var/www/html/attachments"
+FLYSPRAYCONF="/var/www/html/setup/upgrade/1.0/flyspray.conf.php"
 
 cd "$FLYSPRAY"
 
@@ -26,7 +29,10 @@ else
 	echo "Copying flyspray from /tmp/flyspray to /var/www/html"
 	cp -fr * "$HTML"
 	chown -R www-data:www-data "$HTML"
-	chmod -R 644 "$HTML"
+	#chmod -R 644 "$HTML"
+	chmod -R 766 "$CACHE"
+	chmod -R 766 "$ATTACHMENTS"
+	chmod -R 766 "$FLYSPRAYCONF"
 fi
 
 # Start Apache2

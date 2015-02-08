@@ -4,7 +4,7 @@ MAINTAINER John Gratton <jgratton@gmail.com>
 
 # Set Date of Refresh if you need to rebuild the image
 # Format: YYYY-MM-DD
-ENV REFRESHED_AT 2015-02-07
+ENV REFRESHED_AT 2015-02-08
 
 # Install Git
 RUN apt-get update && \

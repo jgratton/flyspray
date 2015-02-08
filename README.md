@@ -1,5 +1,5 @@
 # flyspray
-FlySpray Bug &amp; Issue Tracker - Docker Image
+FlySpray Bug &amp; Issue Tracker - Docker Image Builder
 
 FlySpray is a web based Bug & Issue Tracking system written in the PHP language. And is released under the GNU [Lesser General Public License Version 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).
 
